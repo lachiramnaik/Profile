@@ -426,6 +426,11 @@ nav ul li a:hover {
     background: #2c3e50;
 }
 
+.card-bg a:hover {
+    text-decoration: none;
+    color: #80A5C1;
+}
+
 .card-bg a {
     color: #ecf0f1;
     text-decoration: none;

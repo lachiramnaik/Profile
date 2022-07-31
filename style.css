@@ -346,6 +346,10 @@ nav ul li a:hover {
     font-family: sans-serif;
 }
 
+.companyname {
+    color: #c23616;
+}
+
 .separator {
     font-size: 35px;
     font-family: 'Brush Script MT', cursive;

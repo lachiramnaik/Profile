@@ -393,9 +393,28 @@ nav ul li a:hover {
 .stage-2 {
     width: 100%;
     position: relative;
-    background-image: url("photos/img-2.jpg");
+    /* background-image: url("photos/img-2.jpg"); */
     background-repeat: no-repeat;
     background-size: cover;
+}
+
+.stage-3 {
+    width: 100%;
+    position: relative;
+    /* background-image: url("photos/img-2.jpg"); */
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.overlay-2 {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    color: white;
+    justify-content: center;
+    align-items: center;
+    padding: 30px 0px 50px 0px;
+    background-color: #dde1e7;
 }
 
 .overlay-1 {
@@ -403,7 +422,9 @@ nav ul li a:hover {
     color: white;
     justify-content: center;
     align-items: center;
-    background-color: rgba(0, 0, 0, 0.7);
+    /* background-color: rgba(0, 0, 0, 0.7); */
+    padding: 20px 0px 80px 0px;
+    background-color: #dde1e7;
 }
 
 .overlay-1 h2 {
@@ -440,6 +461,10 @@ nav ul li a:hover {
 
 @media (max-width: 1000px) {
     .stage-2 {
+        height: auto;
+        padding: 0px;
+    }
+    .stage-3 {
         height: auto;
         padding: 0px;
     }
